@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page Automation Test Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .report-header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+        .report-content {
+            padding: 20px;
+        }
+        .test-case {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+        .test-case h3 {
+            margin-top: 0;
+        }
+        .test-result {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="report-header">
+        <h1>Login Page Automation Test Report</h1>
+        <p>Student Name: Sadiya Bhanu</p>
+    </div>
+    <div class="report-content">
+        <div class="test-case">
+            <h3>Test Case 1: Successful Login</h3>
+            <p>Test Steps:</p>
+            <ol>
+                <li>Open the login page</li>
+                <li>Enter valid username and password</li>
+                <li>Click the login button</li>
+            </ol>
+            <div class="test-result" style="color: green;">Pass</div>
+        </div>
+
+        <div class="test-case">
+            <h3>Test Case 2: Failed Login</h3>
+            <p>Test Steps:</p>
+            <ol>
+                <li>Open the login page</li>
+                <li>Enter invalid username or password</li>
+                <li>Click the login button</li>
+            </ol>
+            <div class="test-result" style="color: red;">Fail</div>
+            <div class="failure-details">
+                <p>Failure Reason:</p>
+                <p>Invalid error message displayed</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
